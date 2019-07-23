@@ -65,21 +65,6 @@
     <div>图1 单例模式的结构图</div>
 </div>
 
-```java
-start=>start: OperationManager.java   (操作管理器)
-factory=>operation: OperationFactory.java （操作工厂 确定进行那些操作）
-speakercontrol=>operation: SpeakerControlOperation.java （扬声器控制操作）
-checkapps=>operation: ApplicationCheckAppsOperation.java （应用检查应用程序操作）
-speaker=>operation: SpeakOperation.java （扬声器操作）
-toast=>operation: TemplateToastOperation.java （模板Toast操作）
-application=>operation: TemplateApplicationOperation.java （模板应用程序操作）
-expectSpeech=>operation: ExpectSpeechOperation.java （期望语音操作）
-textcard=>operation: TextCard.java （文字卡片）
-applicationcard=>end: TemplateApplicationCard.java （应用程序卡片）
-start->factory->speakercontrol->checkapps->speaker->toast->application->expectSpeech
-expectSpeech->textcard->applicationcard->end
-```
-
 单例模式的类图看起来很简单，一个私有的当前类型的成员变量，一个私有的构造方法，一个 getInstance 方法，创建对象不再通过new 而通过 getInstance 让该类自行创建。相信我们大多数人使用的单例模式都是这种，因为太简单了。但是单例模式的写法可不止这一种。接下来我们一起来看一下单例模式的九种写法。
 
 <br>
@@ -93,11 +78,6 @@ expectSpeech->textcard->applicationcard->end
 - 静态内部类单例
 - 枚举单例
 
-~~~java
-public static void main(String[] args){
-    
-}
-~~~
 
 <br>
 
