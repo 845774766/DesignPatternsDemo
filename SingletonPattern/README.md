@@ -60,10 +60,10 @@
 
 其结构如图 1 所示。
 
-<center>
+<div style="align:center">
     <img src="./imgs/singleton.png">
     <div>图1 单例模式的结构图</div>
-</center>
+</div>
 
 单例模式的类图看起来很简单，一个私有的当前类型的成员变量，一个私有的构造方法，一个 getInstance 方法，创建对象不再通过new 而通过 getInstance 让该类自行创建。相信我们大多数人使用的单例模式都是这种，因为太简单了。但是单例模式的写法可不止这一种。接下来我们一起来看一下单例模式的九种写法。
 
