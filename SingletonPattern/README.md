@@ -65,7 +65,7 @@
     <div>图1 单例模式的结构图</div>
 </div>
 
-```flow
+```java
 start=>start: OperationManager.java   (操作管理器)
 factory=>operation: OperationFactory.java （操作工厂 确定进行那些操作）
 speakercontrol=>operation: SpeakerControlOperation.java （扬声器控制操作）
