@@ -29,7 +29,7 @@ Visual Studio Code (官网：https://code.visualstudio.com/)
 
 # 23种设计模式目录
 - 创建型设计模式
-    - [单例模式](./SingletonPattern/README.md)&nbsp;&nbsp;(某个类只有一个实例，提供一个全局访问点)
+    - [单例模式](./SingletonPattern/)&nbsp;&nbsp;(某个类只有一个实例，提供一个全局访问点)
     - 建造者模式&nbsp;&nbsp;(封装一个复杂对象的构建过程,按照步骤构造对象)
     - 原型模式&nbsp;&nbsp;(通过复制现有的实例来构建新的实例)
     - 简单工厂模式&nbsp;&nbsp;(一个工厂类根据传入的参数决定创建哪一种产品类的实例)
