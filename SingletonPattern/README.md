@@ -84,6 +84,16 @@
 
 ### 具体介绍
 
+#### *以下单例类（枚举方法除外）的统一使用方式都为：*
+```java
+public class Hello {
+   public static void main(String[] args){
+        SingletonDemo.getInstance().otherMethods();
+    }
+}
+```
+   
+
 #### 1. 懒汉模式（线程不安全）
 ```java
 public class SingletonDemo {
@@ -298,7 +308,8 @@ public class Singleton {
 
 <br>
 
-## 五、会遇到那些坑?
+## 五、会遇到哪些坑?
+
 
 <br>
 
@@ -307,4 +318,4 @@ public class Singleton {
 感谢博主们的共享精神：
 - https://www.cnblogs.com/restartyang/articles/7770856.html
 - https://www.jianshu.com/p/4f4f2fa7e735
-- https://blog.csdn.net/qq_38795430/article/details/
+- https://blog.csdn.net/qq_38795430/article/details/87068665
