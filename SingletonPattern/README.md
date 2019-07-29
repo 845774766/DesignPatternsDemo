@@ -1,4 +1,4 @@
-# 单例模式
+# 单例模式 - Singleton Pattern
 
 ## 一、单例模式的定义与特点 
 
@@ -308,14 +308,19 @@ public class Singleton {
 
 <br>
 
-## 五、会遇到哪些坑?
+## 五、可能会遇到哪些坑?
+
+比较常见的就是以下几种，开发时注意，选好适合的单例访问
+- 多线程问题
+- 序列化问题
+- 反射调用问题
 
 
 <br>
 
 
 ## 参考：
-感谢博主们的共享精神：
+感谢博主们的分享精神：
 - https://www.cnblogs.com/restartyang/articles/7770856.html
 - https://www.jianshu.com/p/4f4f2fa7e735
 - https://blog.csdn.net/qq_38795430/article/details/87068665
