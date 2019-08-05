@@ -54,8 +54,7 @@ Visual Studio Code (官网：https://code.visualstudio.com/)
     - 门面模式/外观模式 - Facade Pattern&nbsp;&nbsp;(对外提供一个统-的方法，用来访问子系统中的一群接口)
     - 桥梁模式/桥接模式 - Bridge Pattern&nbsp;&nbsp;(将抽象部分和它的实现部分相互分离，是它们都可以独立变化)
     - 享元模式 - Flyweight Pattern&nbsp;&nbsp;(通过共享技术来有效的支持大量细粒度的对象)
-    - 代理模式 - Proxy pattern&nbsp;&nbsp;(为其他对象提供一个代理以
-控制这个对象的访问)    
+    - 代理模式 - Proxy pattern&nbsp;&nbsp;(为其他对象提供一个代理以控制这个对象的访问)    
 
 - 行为型设计模式
     - 模板模式 - Template Method Pattern&nbsp;&nbsp;(定义一个算法结构，而将-些步骤延迟到子类实现)
