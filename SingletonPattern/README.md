@@ -61,7 +61,7 @@
 
 其*结构*如图 1 所示。
 <div align=center>
-    <img src="./imgs/singleton.png" center>
+    <img src="./imgs/singleton.png">
     <div>图1 单例模式的结构图</div>
 </div>
 

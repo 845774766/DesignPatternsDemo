@@ -19,11 +19,16 @@
 ## 三、结构(UML类图)与说明
 ***建造者模式分为两种：***
 - 经典模式
-- 变种模式  
+- 变种模式      
 
+经典建造者模式一般不常用，变种模式是经常写的模式，以下我根据一个场景分别来分别介绍一下。
 
 ### 经典建造者模式
-
+经典Builder模式UML图，如图1所示。
+<div align=center>
+    <img src="./imgs/classicalBuilder.png">
+    <div>图1 经典建造者模式结构图</div>
+</div>
 
 
 ## 四、单例模式有哪些?
@@ -32,3 +37,5 @@
 
 ## 参考：
 - https://www.jianshu.com/p/3d1c9ffb0a28
+- https://www.jianshu.com/p/afe090b2e19c
+- https://www.cnblogs.com/yc211/p/7701049.html
